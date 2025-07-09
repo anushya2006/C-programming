@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    int num, digit1, digit2, sum;
+
+    // Get input from user
+
+    scanf("%d", &num);
+
+    // Extract digits
+
+    digit1 = num / 10;       // First digit
+
+    digit2 = num % 10;       // Second digit
+
+    // Calculate sum
+
+    sum = digit1 + digit2;
+
+    // Output the result
+
+    printf("Bird said:%d\n", num);
+
+    printf("Alice must go in path-%d\n", sum);
+
+    return 0;
+
+}
