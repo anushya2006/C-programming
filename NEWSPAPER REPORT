@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    int dead, injured, safe;
+
+    // Read the number of dead, injured, and safe people
+
+    scanf("%d", &dead);
+
+    scanf("%d", &injured);
+
+    scanf("%d", &safe);
+
+    // Print the formatted tsunami report
+
+    printf("TSUNAMI REPORT OF JAPAN\n");
+
+    printf("The number of people\n");
+
+    printf("1)Dead:%d\n", dead);
+
+    printf("2)Injured:%d\n", injured);
+
+    printf("3)Safe:%d\n", safe);
+
+    printf("Please help the people who are suffering!!!\n");
+
+    return 0;
+
+}
